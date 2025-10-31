@@ -1,3 +1,5 @@
 from .exercicioSerializer import ExercicioSerializer
 from .serieSerializer import SerieSerializer
 from .treinoSerializer import TreinoSerializer
+from .sessaoTreinoSerializer import SessaoTreinoSerializer
+from .serieExecutadaSerializer import SerieExecutadaSerializer
