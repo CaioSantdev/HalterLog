@@ -19,7 +19,7 @@ class Exercicio(models.Model):
     ]
 
     treino = models.ForeignKey(Treino,on_delete=models.CASCADE,related_name='exercicios')
-    name = models.CharField(max_length=256)
+    nome = models.CharField(max_length=256)
     grupo_muscular = models.CharField(
         max_length=20,
         choices=GRUPOS_MUSCULARES,

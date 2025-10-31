@@ -52,5 +52,5 @@ class Serie(models.Model):
     atualizado_em = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        tipo = self.get_rotulo_display() or "Sem rótulo"
+        tipo = self.get_tipo_display() or "Sem rótulo"
         return f"Série {self.numero}: {self.repeticoes} reps, {self.peso or 0}kg ({tipo})"

@@ -7,9 +7,5 @@ requires-python = ">=3.10"
 dependencies = [
     "django>=5.2.7",
     "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
 ]
-[tool.uv.scripts]
-run = "manage.py runserver"
-migrate = "manage.py migrate"
-makemig = "manage.py makemigrations"
-superuser = "manage.py createsuperuser"

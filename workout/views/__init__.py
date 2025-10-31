@@ -1,3 +1,3 @@
-from .exercicioView import Exercicio
-from .serieView import Serie
-from .treinoView import Treino
+from .exercicioView import ExercicioViewSet
+from .serieView import SerieViewSet
+from .treinoView import TreinoViewSet

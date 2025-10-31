@@ -5,7 +5,8 @@ class SerieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Serie
         fields = [
-            'id', 'exercicio', 'numero', 'tipo', 'repeticoes',
-            'peso', 'descanso', 'observacao', 'criado_em', 'atualizado_em'
+            'id', 'numero', 'tipo', 'repeticoes',
+            'peso', 'descanso', 'observacao',
+            'criado_em', 'atualizado_em'
         ]
         read_only_fields = ['id', 'criado_em', 'atualizado_em']
